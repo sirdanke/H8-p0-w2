@@ -1,0 +1,74 @@
+tugas Pseudocode
+
+(newton seconf law)
+
+store "masa-benda"  with any value
+store "percepatan" with any calue
+store "resultan-gaya" without value
+calculate "masa-benda times percepatan"
+set "resultan-gaya" vale with calculation result
+
+DISPLAY "AREA"
+
+(TAHUN KABISAT)
+
+*ALGORITMA*
+
+1.PILIH TAHUN
+2.JIKA TAHUN HABIS DIBAGI DENGAN 4 DAN TIDAK HABIS DIBAGI 100 MAKA KELANGKAH 4. atau JIKA TAHUN HABIS DIBAGI 4 DAN HABSI DIBAGI 100 DAN HABIS DIBAGI 400 KE LANGKAH BERIKUTNYA
+3.TAMPIKAN TAHUN KABISAT
+
+
+*PESUDEUCODE*
+
+STORE "tahun" with any value"
+calculate "tahun" modulo 4 or 100
+if "tahun" value = 0
+set "tahun" to "tahun kabisat"
+display "TAHUN KABISAT"
+calculate "tahun" mod 4 and 100 and 400
+if "tahun" value = 0
+SET "tahun" to "Tahun kabisat"
+display "TAHUN KABISAT"
+
+(LAUNDRY DAY)
+
+*ALGORITMA*
+
+1. siapkan baju yang akan di cuci
+2. masukkan baju satu persatu
+3. jika baju sudah mencapai 20 maka kelangkah keEMPAT. jika dibawah dari 20 maka kelangkah kelima
+4. nyalakan mesin pencuci
+5. masukkan baju hingga mencapai 20. 
+
+*PSEUDEUCODE*
+
+STORE "count" TO 0
+while "count= <20
+ADD "count" = 1
+IF "count"= >=20
+SET "count" to "cuci"
+	DISPLAY "cuci"
+ELSE 
+SET " count" to tambahkan baju"
+	DISPLAY "tambahkan baju"
+	
+(PERIKSA KUKU)
+
+*ALGORITMA*
+
+1. kumpulkan semua murid2. 
+2. periksa kuku setiap murid
+3. apabila ditemukan kuku panjang maka kelangkah keempat. apabila tidak ditemukan kelangkah kelima
+4. murid akan dihukum
+5. murid akan dipuji
+
+*PSEUDEUCODE*
+
+STORE "murid" value 40
+
+IF "murid"  value =false
+	DO "memuji"	
+ELSE	
+	DO "menghukum"
+
