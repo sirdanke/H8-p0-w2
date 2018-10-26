@@ -1,20 +1,20 @@
-function shoutOut(){
-    console.log('hallo function !')
+function body (size, harga){
+    return size * harga
 }
-shoutOut ();
+console.log(body (10,10))
 
-function calculateMultiply(num1,num2){
-    return num1*num2
+function mesin (type, speed){
+return 'type mobil='+ type +'kemampuang' +speed
 }
-console.log(calculateMultiply(5,6))
-
-function processSentence(name, age, addres, hobby){
-    return 'nama saya' + name + 'umur saya'+ age + 'alamat saya'+ addres + 'hoby saya' + hobby
+function sales(c,d){
+    var a = body(3,5)
+    var b = mesin(6,5)
+    return 'harga' + a + 'deskripsi' + b
 }
-var name = "Agus ";
-var age = ' 30, ';
-var address = " Jln. Malioboro, Yogjakarta, ";
-var hobby = " gaming";
+console.log(sales())
 
-var fullSentence = processSentence(name,age,address,hobby);
-console.log(fullSentence);
+function rugi(){
+    var t = sales ()
+    return '88888' + t
+}
+console.log(rugi())
