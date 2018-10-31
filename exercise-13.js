@@ -5,15 +5,18 @@ function xo(str) {
         if (str[i] ==='x'){
         jumlahHurufX = jumlahHurufX+1;
         }
-        else if (str[i] ==='O'){
-        jumlahHurufO = jumlahHurufO+1;
+        else if (str[i] ==='o'){
+        jumlahHurufO = jumlahHurufO +1;
         }
+        /*
+        
         if (jumlahHurufO === jumlahHurufX){
             return true;
         }else if (jumlahHurufO !== jumlahHurufX){
             return false;
-        }
-    }  
+        }*/
+        //return 'o' + jumlahHurufO + 'x' + jumlahHurufX
+    }  return 'x = ' + jumlahHurufX+ ' o = ' + jumlahHurufO
   }
 
   

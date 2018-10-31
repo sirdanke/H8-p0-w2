@@ -1,11 +1,20 @@
 function konversiMenit(menit) {
     j = Math.floor(menit / 60);
     m = menit % 60 ;
-    if (m <10){
-        m = '0' + m;
+    if (j < 1){
+        j =  ''; 
+    }else if(j >= 1){
+        j = j + ' menit '
     }
-    return j + ':' + m;
-  }
+
+    if (m <1){
+        m = ''
+    }else if(m >= 1){
+        m = m + ' detik'
+    }
+     return j + m
+}
+   
   
   // TEST CASES
   console.log(konversiMenit(63)); // 1:03

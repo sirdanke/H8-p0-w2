@@ -33,21 +33,3 @@ switch (bulan)
 
     default : {console.log('invalid date')}
 }
-
-function jalanTol (jenisMobil, rute){
-    var golongan = 0;
-    for(i = jenisMobil.length; i >= 0; i ++)
-    if (jenisMobil[i]=== 'sedan', 'van', 'minibus'){
-      golongan = golongan +1;
-    }else if (jenisMobil[golongan]=== 'bus', 'trek', 'mobilbox'){
-        return 'golongan2';
-    }else if (jenisMobil[golongan]=== 'trek gandeng'){
-        return 'golongan3';
-    }
-    if (golongan === 1 && rute ===" dalamkota"){
-      return 9500;
-    }
-  }
-
-console.log(jalanTol ('sedan', 'dalamkota'))
-
