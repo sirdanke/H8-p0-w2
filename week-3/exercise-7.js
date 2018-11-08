@@ -1,20 +1,20 @@
 function hitungJumlahKata(str) {
   
-  //var str = kalimat.split(" ");
-  //return str.length;
-   var result = 1;
+   var result = 0;
+   var kata = '';
        for (var i = 0; i < str.length; i ++){
-         if(str[i] === ' '){
+         if(str[i] === ' ' && str != ''){
           result = result + 1;
-         }else if(str[i] === '' ){
-           result = 'invalid'
+          kata ='';
+         }else {
+           kata+=str[i]
          }
-           
-         
-        //return result   
-      }return result   
-       
-  
+ 
+      }
+      if(kata !=''){
+        result = result+1
+      }
+      return result   
 }
 
 // TEST CASES

@@ -11,6 +11,7 @@ for (var i = 0; i < row3; i ++){
   console.log(result)
 }
 
+
 for (var o = 0; o <5; o ++){
   var p = '';
   for(var z = 0; z <5; z ++){
