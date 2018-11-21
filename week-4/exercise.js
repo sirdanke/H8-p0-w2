@@ -22,6 +22,7 @@ function angkaPrima(angka) {
    var evenLength = maxLength -1;
    var result = '';
    var result1= 0;
+  
   // console.log(maxLength)
    if(arr.length % 2 !== 0){
      result = arr[maxLength]
